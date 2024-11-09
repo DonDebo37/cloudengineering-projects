@@ -30,3 +30,18 @@ The infrastructure includes:
 5. Auto Scaling Group with t2.micro instances
 6. Application Load Balancer
 7. CloudWatch alarms for scaling policies
+
+![VPC Architecture Diagram](images/VPC.png)
+
+
+## Setup and Deployment
+1. Ensure you have AWS CLI configured with appropriate permissions.
+2. Clone this repository to your local machine.
+3. Navigate to the project directory.
+4. Deploy the CloudFormation stack:
+   ```
+   aws cloudformation create-stack --stack-name my-vpc-asg-stack --template-body file://asg.yaml
+   ```
+   ![ASG CloudFormation](images/ASG-Cloudformation.png)
+
+5. Monitor the stack creation process in the AWS CloudFormation console.

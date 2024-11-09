@@ -1,0 +1,9 @@
+ # S3 bucket
+
+ AWSTemplateFormatVersion: '2010-09-09'
+ Description: 'Cloudformation template for s3 Bucket'
+ Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: 'aa-cloudproject-s3bucket-yaml'

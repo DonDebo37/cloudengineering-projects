@@ -45,3 +45,17 @@ The infrastructure includes:
    ![ASG CloudFormation](images/ASG-Cloudformation.png)
 
 5. Monitor the stack creation process in the AWS CloudFormation console.
+
+![Auto Scaling Group Full Stack Deployment](images/ASG-full-stack-deployment.png)
+
+
+## Usage
+Once deployed, the infrastructure will:
+- Automatically scale EC2 instances based on CPU utilization
+- Distribute incoming traffic across instances via the Application Load Balancer
+- Allow you to access the application through the ALB's DNS name
+
+To access the application:
+1. Find the ALB's DNS name in the AWS EC2 console
+2. Open the DNS name in a web browser
+

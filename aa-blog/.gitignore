@@ -4,16 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
-/pages
-/styles
-/public
+/.next
 
 # testing
 /coverage
 
 # next.js
-/.next/
-/out/
+
 
 # production
 /build
@@ -31,7 +28,3 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-
-/package-lock.json
-/package.json
-.nvmrc

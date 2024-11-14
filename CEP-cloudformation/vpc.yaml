@@ -22,7 +22,7 @@ Resources:
       Tags:
         - Key: Name
           Value: PublicSubnet1A
-          
+
 
   AppPrivateSubnet1A:
     Type: 'AWS::EC2::Subnet'
@@ -78,3 +78,4 @@ Resources:
       Tags:
         - Key: Name
           Value: DataPrivateSubnet2B
+
